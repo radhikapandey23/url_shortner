@@ -1,0 +1,91 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+.container{
+    height: auto;
+    width: 370px;
+    background-color: rgb(245 250 249 / 49%);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow:2px 1px 30px rgb(171, 169, 169);
+}
+.container h1{
+    margin: 10px 42px;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+form div{
+    align-items: center;
+
+}
+form div label{
+    display: block;
+    color: rgb(50, 50, 46);
+    margin: 9px 0;
+}
+form input{
+    width: 100%;
+    padding: 6px;
+    font-size: 15px;
+    color: rgb(55, 52, 52);
+    outline: none;
+    border: 1px solid rgb(204, 198, 198); 
+}
+
+form button{
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(37 14 160);
+    border: none;
+    padding: 8px 15px;
+    margin: 24px 122px;
+    color: rgb(247, 245, 241);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.container h2{
+    font-size: 25px;
+    color: rgb(102 96 96);
+    margin: 5px 75px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    background-color: #fafafa;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px ;
+    align-items: center;
+
+   
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+
+}
+li h4 a {
+    align-items: center;
+}
+
+
+
+li a{
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+   
+
+}
+li a:hover{
+    text-decoration: underline;
+}
